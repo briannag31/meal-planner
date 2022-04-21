@@ -38,12 +38,12 @@
 
 ## Model
 Meals{
-    id: Object,
-    day: string
-    name: string
-    description: string
-    ingredients: array
-    time: number
+    id: Object,  
+    day: string,  
+    name: string,  
+    description: string,  
+    ingredients: array,  
+    time: number,  
 }
 
 ## Work Plan
