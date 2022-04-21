@@ -9,7 +9,7 @@
 | Field | Detail |
 |-------|--------|
 | Project Name | Meal Planner|
-| Description | This app will allow the user to create a weekly meal plan. THey can add details of their mean for each day, see a week view, click on the meals to see the details, add new meals, and edit or delete existing meals. |
+| Description | This app will allow the user to create a weekly meal plan. They can add details of their meal for each day, see a week view, click on the meals to see the details, add new meals, and edit or delete existing meals. |
 | Trello Board | https://trello.com/b/7TKDl9CA/seirfx-project-2 |
 
 
@@ -37,7 +37,7 @@
 - post "/weekly-meals" => redirects to index of meals with added meal from the form on the new page
 
 ## Model
-Meals{
+Meals{  
     id: Object,  
     day: string,  
     name: string,  
@@ -55,5 +55,3 @@ Meals{
 - add an API call to add a search for recipes
     - make the ingredient list in those recipes clickable to be added to a shopping list
 - add authentication
-# meal-planner
-# meal-planner
